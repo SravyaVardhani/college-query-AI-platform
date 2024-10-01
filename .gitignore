@@ -1,0 +1,27 @@
+# Ignore Python cache files
+_pycache_/
+*.py[cod]
+
+# Ignore IDE specific settings (e.g., PyCharm, IntelliJ)
+.idea/
+
+# Ignore macOS specific file
+.DS_Store
+
+# Ignore any virtual environment folder (if used)
+venv/
+env/
+
+# Ignore Jupyter Notebook checkpoints (if applicable)
+.ipynb_checkpoints/
+
+# Ignore log files and temp files
+*.log
+*.tmp
+
+# Ignore system files
+*.swp
+*.swo
+
+# Ignore env file
+secret_key.env
